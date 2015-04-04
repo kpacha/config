@@ -19,7 +19,7 @@
     },
     "suggest": {
         "kpacha/suricate-config": "Allows your project to interact with the suricate service discovering system",
-        "kpacha/consul-config": "Allows your project to interact with the consul service discovering system",
+        "kpacha/consul-config": "Allows your project to interact with the consul service discovering system"
     },
     "bin": ["bin/config"],
     "config": {
