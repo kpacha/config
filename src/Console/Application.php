@@ -18,7 +18,7 @@ class Application extends BaseApplication
 
     protected function getDefaultCommands()
     {
-        return array(new UpdateServices);
+        return array_merge(parent::getDefaultCommands(), array(new UpdateServices));
     }
 
 }
