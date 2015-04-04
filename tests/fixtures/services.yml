@@ -1,0 +1,13 @@
+service-manager: \\Kpacha\\Config\\Dummies\\DummyServiceManager
+server: http://localhost:8080/v1/service
+service-names:
+  - service-a
+  - service-b
+  - service-c
+default:
+  service-a:
+    - {    name: service-a,       id: ca2fff8e-d756-480c-b59e-8297ff886240,      address: 10.20.30.40,      port: 1234,      registrationTimeUTC: 1325129459728,      serviceType: STATIC,      payload: supu }
+  service-b:
+    - { name: service-b, id: ca2fff8e-d756-480c-b59e-8297ff886240, address: 10.20.30.40, port: 1234, registrationTimeUTC: 1325129459728, serviceType: STATIC, payload: supu }
+  service-c:
+    - { name: service-c, id: ca2fff8e-d756-480c-b59e-8297ff886240, address: 10.20.30.40, port: 1234, registrationTimeUTC: 1325129459728, serviceType: STATIC, payload: supu }

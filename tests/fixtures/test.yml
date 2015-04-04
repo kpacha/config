@@ -1,0 +1,9 @@
+a: dummy
+b: 
+  - one
+  - two
+c:
+  lorem:
+    - 1
+    - 2
+  ipsum: true

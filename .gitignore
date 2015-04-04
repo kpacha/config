@@ -1,0 +1,6 @@
+composer.lock
+vendor
+build
+phpunit.xml
+bin/suricate
+bin/phpunit
